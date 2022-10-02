@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0, 20%, 0, 20%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 80vw;
+  border: 2px solid white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  color: white;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+  text-decoration: none;
+}
+
+nav img {
+  width: 5%;
+  height: 5%;
+}
+
+.hero {
+  text-align: center;
+  background: url('/assets/heroBG.jpeg') no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.hero h1 {
+  padding-bottom: 20px;
+  padding-top: 200px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #6FC3DF;
+}
+
+.hero h3 {
+  padding-bottom: 20px;
+  font-size: 42px;
+  font-weight: bold;
+  color: #DF740C;
+}
+
+.hero button {
+  background: none;
+  border: 1px solid #E6FFFF;
+  font-weight: medium;
+  font-size: 24px;
+  width: 150px;
+  height: 50px;
+  color: #E6FFFF;
+  border-radius: 4px;
+}
