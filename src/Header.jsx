@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="header">
       <nav>
-        <img src={gLogo} alt="SVG" />
+      <img src={gLogo} alt="SVG" />
         <ul>
           <li>Home</li>
           <li>About Me</li>
